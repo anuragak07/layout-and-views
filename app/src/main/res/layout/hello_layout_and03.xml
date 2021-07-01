@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#2F2F2F"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvAND03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello AND 03"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Layouts"
+        android:layout_marginTop="100dp"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+    <View
+        android:id="@+id/View_Circle"
+        android:layout_width="105dp"
+        android:layout_height="90dp"
+        android:background="@drawable/blue_oval"
+        android:layout_below="@id/tvAND03"
+        android:layout_margin="150dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Name : Anurag Prasad "
+        android:drawableEnd="@drawable/ic_name"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age : 24"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/Name"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#00FF00"
+        android:text="Next"
+        android:textSize="28dp"
+        android:id="@+id/btnNext"
+        android:layout_alignParentBottom="true"/>
+    <View
+        android:layout_width="142dp"
+        android:layout_height="12dp"
+        android:background="#C4C4C4"
+        android:layout_above="@id/btnNext"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"/>
+    <View
+        android:layout_width="167dp"
+        android:layout_height="20dp"
+        android:background="#C4C4C4"
+        android:layout_above="@id/btnNext"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"/>
+    <View
+        android:layout_width="183dp"
+        android:layout_height="31dp"
+        android:background="#C4C4C4"
+        android:layout_above="@id/btnNext"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
